@@ -1,47 +1,43 @@
-# Student Resource Access System
+# Scholarity
 
-## SDG Goal
-SDG 4 – Quality Education
+A student resource platform designed for **SDG 4: Quality Education**. Students pick their programme (IGCSE, A Levels, O Levels, AUSMAT and others) and get the matching past papers, notes, lecture videos and tutors in one place.
 
-## Team Members
-- Ahan — Project Manager
-- Raiyaan and Aamna — lead System Analyst
-- Raiyaan and shaira — Software Architect
-- Aamna and Sally — Quality & Documentation Lead
- 
+Built as a group project for System Analysis and Design at Taylor's University, following the full SDLC: planning, design, prototype and user testing.
 
-## Project Description
-The Student Resource Access System is designed to help students from different education levels easily find and 
-access relevant learning materials based on their programme of study. The system centralizes educational resources,
-making it easier for students to locate notes, guides, references, and study tools without wasting  time searching
-across multiple platforms.
+## Screenshots
 
-## Target Users
-- School students
-- College students
-- University students
-- Educators
+| Dashboard | Resource library |
+|---|---|
+| ![Dashboard](FINAL/dashboard.jpeg) | ![Resources](FINAL/resources.jpeg) |
 
-## Problem Statement
-Students often struggle to locate reliable study resources that match their course or level.
-Materials are scattered across different platforms, making learning inefficient and time-consuming.
+| Tutors | Video lectures |
+|---|---|
+| ![Tutors](FINAL/tutors.jpeg) | ![Video lectures](FINAL/video%20lectures.jpeg) |
 
-## Proposed Solution
-This system organizes learning resources according to programme, subject, and academic level. 
-It provides a structured interface where users can quickly find relevant materials.
+## The problem
 
-## SDLC Overview
-Planning:
-Defined user needs, project scope, and system requirements.
+Study material is scattered across many sites, and much of it does not match the student's course or level. Students lose time searching instead of studying.
 
-Design:
-Created system diagrams, UI wireframes, and interface structure.
+## The prototype
 
-Testing:
-Collected user feedback and evaluated usability.
+- **Dashboard** showing recent activity
+- **Resource library** to browse and download learning materials by programme and subject
+- **Tutor directory** to view tutors and book sessions
+- **Video lectures** with a player, lecture details and downloadable notes
 
-Final:
-Completed working prototype with improvements based on testing results.
+## User testing
 
-## Project Impact
-This system supports SDG 4 (Quality Education) by improving access to organized educational resources, helping students learn more efficiently and effectively.
+The prototype was tested with students and tutors through a structured survey. Most participants found it easy or very easy to navigate, rated the interface 4 or 5 out of 5, and picked the learning materials and resource downloads as the most useful features. Feedback on navigation and visual design is recorded for the next iteration.
+
+Full notes: [planning](docs/planning.md), [testing](docs/testing.md), [summary of results](FINAL/Summary%20of%20Results.md).
+
+## Team
+
+| Role | Members |
+|---|---|
+| Project Manager | Ahan |
+| Lead Systems Analyst | Raiyaan, Aamna |
+| Software Architect | Raiyaan, Shaira |
+| Quality and Documentation Lead | Aamna, Sally |
+
+Agile process managed on Trello, version control on GitHub.
